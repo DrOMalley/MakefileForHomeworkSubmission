@@ -31,7 +31,7 @@
     ```
     or on a Mac:
     ```
-    cd ~\test\
+    cd ~/test/
     ```
 
 1.	Then just type `make` and press enter. It will combine all the pdf files into a single one called submit.pdf and then put it into a zip along with all .m files. If you want to add additional files to the zip, see the instructions in the Makefile. 
