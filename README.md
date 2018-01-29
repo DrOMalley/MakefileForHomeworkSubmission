@@ -5,6 +5,7 @@
     1.	Zip for Windows: http://gnuwin32.sourceforge.net/packages/zip.htm (Click the “Setup” link for Complete package, except sources). 
         *	Make note of the folder where the installer is putting the files, you will need this later. It will probably be one of: `C:\Program Files\GnuWin32\` or `C:\Program Files (x86)\GnuWin32\`
     1.	Make for Windows: http://gnuwin32.sourceforge.net/packages/make.htm (Click the “Setup” link for Complete package, except sources)
+    1. Click the green "Clone or Download" button above and choose "Download ZIP"
 1.	Configuration:
     1.	You’ll need to tell windows where to find zip and make. You do this by editing the PATH environment variable.
         *	Right-click “This PC” and choose “Properties”
@@ -21,10 +22,11 @@
     1. Mac Developer tools. This will install make:
         * In the terminal window, run the command `xcode-select --install`
         * In the windows that pop up, click Install, and agree to the Terms of Service.
-
+    1. Click the green "Clone or Download" button above and choose "Download ZIP"
 # How to use the Makefile
 (you would to this each time)
-1.	Navigate to Set up a directory with your .pdf and .m files. Put the attached Makefile into that directory. 
+1.	Set up a directory with your .pdf and .m files. 
+1.  Put the Makefile from your downloaded MakefileForHomeworkSubmission.zip into that directory. 
 1.	Open the command prompt and navigate to the directory where your files are. For example, on windows you would use the command
     ```
     cd C:\Users\pomalley\test\
